@@ -363,7 +363,7 @@
     currentData = getFormData();
     document.getElementById("infoText").textContent = "Optimizasyon başlatılıyor...";
 
-    fetch("http://127.0.0.1:5000/optimize", {
+    fetch("https://bariskirim.github.io/fronttopopt/optimize", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -400,7 +400,7 @@
 
     document.getElementById("infoText").textContent = "İterasyon devam ediyor...";
 
-    fetch("http://127.0.0.1:5000/optimize", {
+    fetch("https://bariskirim.github.io/fronttopopt/optimize", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -441,7 +441,7 @@
     }
     document.getElementById("infoText").textContent = "Optimizasyon durduruluyor...";
 
-    fetch("http://127.0.0.1:5000/optimize", {
+    fetch("https://bariskirim.github.io/fronttopopt/optimize", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

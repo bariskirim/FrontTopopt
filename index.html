@@ -363,7 +363,7 @@
     currentData = getFormData();
     document.getElementById("infoText").textContent = "Optimizasyon başlatılıyor...";
 
-    fetch("https://bariskirim.github.io/fronttopopt/optimize", {
+    fetch("https://toptrepo.onrender.com/optimize", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -400,7 +400,7 @@
 
     document.getElementById("infoText").textContent = "İterasyon devam ediyor...";
 
-    fetch("https://bariskirim.github.io/fronttopopt/optimize", {
+    fetch("https://toptrepo.onrender.com/optimize", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -441,7 +441,7 @@
     }
     document.getElementById("infoText").textContent = "Optimizasyon durduruluyor...";
 
-    fetch("https://bariskirim.github.io/fronttopopt/optimize", {
+    fetch("https://toptrepo.onrender.com/optimize", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
